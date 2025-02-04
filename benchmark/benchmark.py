@@ -149,11 +149,11 @@ class PDFBenchmarkSuite:
             print(f"  Character accuracy: {quality['character_accuracy']:.3f}")
 
 def main():
-    # pdf_path = "2201.00214v1.pdf"
-    # ground_truth_path = "./ground-truth/2201.00214.txt"  # Optional
+    pdf_path = "2201.00214v1.pdf"
+    ground_truth_path = "./ground-truth/2201.00214.txt"  # Optional
 
-    pdf_path = "GeoTopo.pdf"
-    ground_truth_path = "./ground-truth/GeoTopo-book.txt"  # Optional
+    # pdf_path = "GeoTopo.pdf"
+    # ground_truth_path = "./ground-truth/GeoTopo-book.txt"  # Optional
 
     benchmark = PDFBenchmarkSuite(
         pdf_path=pdf_path,
